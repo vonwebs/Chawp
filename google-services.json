@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949827223720",
+    "project_id": "chawp-c73f0",
+    "storage_bucket": "chawp-c73f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949827223720:android:98044663a2eb86fc46c29d",
+        "android_client_info": {
+          "package_name": "com.stephenj.chawp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949827223720-s1ku8bbo3qt7anft2i1nhp5ulsp2vktb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQBReoNVa9On7KH5JMWBuAATObiupAc0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949827223720-s1ku8bbo3qt7anft2i1nhp5ulsp2vktb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

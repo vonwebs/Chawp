@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Chawp",
+    "slug": "Chawp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/chawp.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/chawp.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jtrlabs.chawp",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "splash": {
+        "image": "./assets/chawp.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/chawp.png",
+        "backgroundColor": "#000000"
+      },
+      "splash": {
+        "image": "./assets/chawp.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.stephenj.chawp",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "chawp"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "scheme": "chawp",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/chawp.png",
+          "color": "#FF6B6B"
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "web": {
+      "favicon": "./assets/chawp.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "25e34247-92bf-4bc2-9638-a4c7207fa6b2"
+      }
+    }
+  }
+}
